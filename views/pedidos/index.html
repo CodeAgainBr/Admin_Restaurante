@@ -1,0 +1,33 @@
+<div class="container">
+	<div class="row">
+		<div class="card col-12 px-0">
+			<div class="card-header">
+				<button class="btn btn-primary btn-block"><i class="fas fa-plus"></i></button>
+			</div>
+
+			<div class="card-body">
+				<div class="row pedidos">
+					<div class="col-12 box-pedido" data-id="1">
+						<div class="row">
+							<div class="col-5 py-4">
+								<p class="h4">Mesa <span class="mesa_numero">1</span></p>
+							</div>
+
+							<div class="col-7 pt-2 text-right">
+								<p class="h5">Pedido feito</p>
+								<p class="h5 text-danger">R$ 29,99</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal"></div>
+</div>
+
+<script src="controllers/pedidoController.js"></script>
+<script>
+	index();
+</script>

@@ -1,0 +1,24 @@
+.box-mesa {
+	height: 40vw;
+	color: white;
+	background-color: lightgray;
+	margin: 0 5px 0 5px;
+
+  flex: 0 0 45%;
+  max-width: 45%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+
+.box-mesa:nth-child(even) {
+	margin-left: 2.5%;
+}
+
+.box-mesa:nth-child(odd) {
+	margin-right: 2.5%;
+}
+
+.box-mesa p {
+	line-height: 3;
+}
